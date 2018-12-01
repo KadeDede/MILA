@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">tester bottom</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="MILA">MILA</string>
+    <string name="cari">cari</string>
+    <string name="img_ikln">img_ikln</string>
+    <string name="textview">TextView</string>
+    <string name="_2011_masda_21_5_r_sedan">2011 masda 21.5 r sedan</string>
+    <string name="_90_95_km">90-95 KM</string>
+    <string name="automatic">automatic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_foto">Upload foto</string>
+    <string name="logo_upload">logo upload</string>
+    <string name="model_mobil">model mobil</string>
+    <string name="lokasi_penjual">Lokasi Penjual</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="harga">Harga</string>
+    <string name="name">Name</string>
+    <string name="kadek_dede_setiawan">Kadek Dede Setiawan</string>
+    <string name="dedenht76_gmail_com">dedenht76@gmail.com</string>
+    <string name="lihat_dan_ubah_profil_anda">lihat dan ubah profil anda</string>
+    <string name="lihat_profile">lihat profile</string>
+</resources>

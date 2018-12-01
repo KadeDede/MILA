@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jual">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/relativejual"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardup"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <LinearLayout
+                android:id="@+id/relativcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/upload_foto"
+                    android:textColor="@color/biru"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/logo_upload"
+                    android:src="@android:drawable/ic_input_add" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/relativedata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judulview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/model_mobil"
+                    android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/editjudul"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:autofillHints="model mobil"
+                        android:ems="20"
+                        android:inputType="textPersonName" />
+                    <Spinner
+                        android:id="@+id/mdlmobilspin"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:autofillHints="merk mobil" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/lokasiview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lokasi_penjual"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/editlokasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="lokasi"
+                    android:ems="50"
+                    android:inputType="textPersonName" />
+                <Spinner
+                    android:id="@+id/spinkondisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:autofillHints="kondisi" />
+                <TextView
+                    android:id="@+id/notelpview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nomor_handphone"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edittelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="no telp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:id="@+id/hargaview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/harga"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/editharga"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/harga"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deskripsi"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edideskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="username"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

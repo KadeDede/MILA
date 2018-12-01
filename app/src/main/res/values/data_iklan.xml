@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="judulikln">
+        <item>2011 masda 21 5 r sedan</item>
+        <item>2012 masda 24 5 g sedan</item>
+    </string-array>
+
+    <string-array name="transmisi">
+        <item>automatic</item>
+        <item>manual</item>
+    </string-array>
+
+    <string-array name="km">
+        <item>95-100</item>
+        <item>100-150</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8cfa38</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorsplash">#ffffff</color>
+    <color name="bck_img">#c9c9c9</color>
+    <color name="bck_buttonnv">#e7e7e7</color>
+    <color name="black">#0e0e0e</color>
+    <color name="biru">#ce519cff</color>
+
+</resources>
